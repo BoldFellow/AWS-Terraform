@@ -1,6 +1,7 @@
 # Remote Backend in **AWS**
 
 > **S3** being used for storing the tfstate files.
+>
 > **DynamoDB** being used for state locking.
 
 ## Benfits of using remote backend 
