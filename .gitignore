@@ -6,6 +6,8 @@
 *.tfstate.*
 
 providers.tf
+*.tfvars
+*.tfvars.json
 
 # Ignore provider binary directory
 **/.terraform/providers/**
