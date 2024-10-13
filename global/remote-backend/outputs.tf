@@ -11,5 +11,5 @@ output "dynamodb-backend" {
 
 output "kms_master_key_id" {
   description = "ARN of the KMS key"
-  value = aws_kms_key.tf_backend_key.arn
+  value       = aws_kms_key.tf_backend_key.arn
 }
